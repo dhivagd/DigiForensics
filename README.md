@@ -2,7 +2,6 @@
 
 **DigiForensics AI** is an AI-powered Digital Evidence Management System built for law enforcement, cyber forensic teams, and investigators. It helps manage cases, assign investigators, store digital evidence securely, and track progress—all from a central platform.
 
-🌐 **Live Website**: [https://digiforensics-avd.netlify.app](https://digiforensics-avd.netlify.app)
 
 ---
 
