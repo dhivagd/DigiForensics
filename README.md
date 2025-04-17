@@ -1,73 +1,89 @@
-# Welcome to your Lovable project
+# 🔍 DigiForensics AI
 
-## Project info
+**DigiForensics AI** is an AI-powered Digital Evidence Management System built for law enforcement, cyber forensic teams, and investigators. It helps manage cases, assign investigators, store digital evidence securely, and track progress—all from a central platform.
 
-**URL**: https://lovable.dev/projects/f5e5fc30-0ba7-4743-bf9f-f6d844f6318f
+🌐 **Live Website**: [https://digiforensics-avd.netlify.app](https://digiforensics-avd.netlify.app)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Features
 
-**Use Lovable**
+- 👤 Admin & Investigator login system
+- 📝 Register new investigators (admin notified)
+- 📂 Upload and manage digital evidence (all file types supported)
+- 📄 Submit and track investigation reports
+- 📊 Visual dashboard with case stats and recent activity
+- 🔔 Real-time alerts and case updates
+- 🕵️ Admin can assign cases to investigators
+- 📅 Case timelines and priority levels
+- 🌓 Modern UI with dark theme
+- 🔐 Supabase authentication and storage
+- 🧠 OCR and Graphical Case Mapping (Planned)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f5e5fc30-0ba7-4743-bf9f-f6d844f6318f) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🧰 Tech Stack
 
-**Use your preferred IDE**
+| Layer        | Tools Used                       |
+|--------------|----------------------------------|
+| **Frontend** | React.js, TypeScript, TailwindCSS, Vite |
+| **Backend**  | Supabase (Auth, DB, File Storage) |
+| **Hosting**  | Netlify                          |
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📁 Folder Structure
 
-Follow these steps:
+digiforensics-ai-main/
+│
+├── public/                         # Static assets like favicon, index.html
+│   └── favicon.ico
+│
+├── src/                            # Main source code (React components, pages, logic)
+│   ├── assets/                     # Images and static frontend assets
+│   ├── components/                 # Reusable UI components
+│   ├── pages/                      # Page-level components (e.g., Login, Dashboard)
+│   ├── services/                   # API and Supabase integration logic
+│   ├── utils/                      # Utility functions/helpers
+│   └── App.tsx                     # Main app component
+│
+├── supabase/                       # Supabase config, table schema, and auth handling
+│   └── supabaseClient.ts           # Initializes Supabase client
+│
+├── .gitignore                      # Files to ignore in Git
+├── README.md                       # Project documentation
+├── bun.lockb                       # Bun package manager lock file (if used)
+├── components.json                 # Shadcn UI or other UI config
+├── eslint.config.js                # ESLint configuration
+├── index.html                      # Main HTML file (entry point)
+├── netlify.toml                    # Netlify deployment config
+├── package.json                    # Node project metadata and dependencies
+├── package-lock.json               # Locks versions of dependencies
+├── postcss.config.js               # PostCSS config for Tailwind
+├── tailwind.config.ts              # TailwindCSS settings
+├── tsconfig.app.json               # TypeScript config for the app
+├── tsconfig.json                   # Root TypeScript config
+├── tsconfig.node.json              # Node-specific TypeScript settings
+├── vite.config.ts                  # Vite bundler configuration
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🛠️ Getting Started Locally
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Prerequisites
+- Node.js v16+
+- Supabase account (https://supabase.com)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/digiforensics-ai.git
+cd digiforensics-ai-main
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/f5e5fc30-0ba7-4743-bf9f-f6d844f6318f) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
