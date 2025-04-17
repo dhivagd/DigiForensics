@@ -31,11 +31,6 @@
 
 ---
 
-## 📁 Folder Structure
-
-![image](https://github.com/user-attachments/assets/32e0a8de-8152-4f35-8fd7-907d949102af)
-
----
 
 ## 🛠️ Getting Started Locally
 
