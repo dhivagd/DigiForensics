@@ -34,38 +34,7 @@
 
 ## 📁 Folder Structure
 
-digiforensics-ai-main/
-│
-├── public/                         # Static assets like favicon, index.html
-│   └── favicon.ico
-│
-├── src/                            # Main source code (React components, pages, logic)
-│   ├── assets/                     # Images and static frontend assets
-│   ├── components/                 # Reusable UI components
-│   ├── pages/                      # Page-level components (e.g., Login, Dashboard)
-│   ├── services/                   # API and Supabase integration logic
-│   ├── utils/                      # Utility functions/helpers
-│   └── App.tsx                     # Main app component
-│
-├── supabase/                       # Supabase config, table schema, and auth handling
-│   └── supabaseClient.ts           # Initializes Supabase client
-│
-├── .gitignore                      # Files to ignore in Git
-├── README.md                       # Project documentation
-├── bun.lockb                       # Bun package manager lock file (if used)
-├── components.json                 # Shadcn UI or other UI config
-├── eslint.config.js                # ESLint configuration
-├── index.html                      # Main HTML file (entry point)
-├── netlify.toml                    # Netlify deployment config
-├── package.json                    # Node project metadata and dependencies
-├── package-lock.json               # Locks versions of dependencies
-├── postcss.config.js               # PostCSS config for Tailwind
-├── tailwind.config.ts              # TailwindCSS settings
-├── tsconfig.app.json               # TypeScript config for the app
-├── tsconfig.json                   # Root TypeScript config
-├── tsconfig.node.json              # Node-specific TypeScript settings
-├── vite.config.ts                  # Vite bundler configuration
-
+![image](https://github.com/user-attachments/assets/32e0a8de-8152-4f35-8fd7-907d949102af)
 
 ---
 
